@@ -29,7 +29,7 @@ class App extends Component {
   }
 
   render() {
-    const tareas = this.state.todos.map((todo, i) => {
+    const tareas = this.state.todos.map((todo,i) => {
       return (
         <div className="col-md-4" key={i}>
           <div className="card mt-4">
